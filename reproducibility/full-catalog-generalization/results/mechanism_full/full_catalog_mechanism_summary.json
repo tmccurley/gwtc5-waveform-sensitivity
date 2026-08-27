@@ -1,0 +1,128 @@
+{
+  "analysis": "locked exploratory full-catalog mechanism generalization",
+  "completed_utc": "2026-08-26T20:15:00.497897+00:00",
+  "direction_count": 360,
+  "populations": {
+    "A_nondevelopment": {
+      "population": "A_nondevelopment",
+      "event_count": 78,
+      "joint_eligible_count": 78,
+      "joint_sliced_w1_median": 0.045393324007724334,
+      "joint_sliced_w1_minimum": 0.011550887608090612,
+      "joint_sliced_w1_maximum": 0.10649536832448542,
+      "rho_joint_vs_chi_eff_nw1": 0.9411980424638651,
+      "median_chi_eff_share_of_l1_shift": 0.7489266930270543,
+      "median_absolute_shift_pc1_alignment": 0.6465289744741802,
+      "median_pc1_variance_fraction": 0.6124485074298998,
+      "chi_p_eligible_count": 78,
+      "chi_eff_vs_chi_p": {
+        "nw1": {
+          "eligible_count": 78,
+          "positive_count": 70,
+          "zero_count": 0,
+          "negative_count": 8,
+          "median_difference": 0.04454840866081608,
+          "minimum_difference": -0.02440617271401127,
+          "maximum_difference": 0.13552142275499773
+        },
+        "nw1_geometric_width": {
+          "eligible_count": 78,
+          "positive_count": 70,
+          "zero_count": 0,
+          "negative_count": 8,
+          "median_difference": 0.04455519108741223,
+          "minimum_difference": -0.02439905601264132,
+          "maximum_difference": 0.13552000898870642
+        },
+        "nw1_larger_width": {
+          "eligible_count": 78,
+          "positive_count": 70,
+          "zero_count": 0,
+          "negative_count": 8,
+          "median_difference": 0.04384349348960238,
+          "minimum_difference": -0.02458760807044129,
+          "maximum_difference": 0.13538385402162667
+        },
+        "standardized_median_displacement": {
+          "eligible_count": 78,
+          "positive_count": 61,
+          "zero_count": 0,
+          "negative_count": 17,
+          "median_difference": 0.08459213631193334,
+          "minimum_difference": -0.10934185179062805,
+          "maximum_difference": 0.3054885504291615
+        },
+        "ks_distance": {
+          "eligible_count": 78,
+          "positive_count": 70,
+          "zero_count": 0,
+          "negative_count": 8,
+          "median_difference": 0.0558050912142353,
+          "minimum_difference": -0.03349577927359221,
+          "maximum_difference": 0.16969477147889284
+        }
+      }
+    },
+    "B_complete_catalog": {
+      "population": "B_complete_catalog",
+      "event_count": 93,
+      "joint_eligible_count": 93,
+      "joint_sliced_w1_median": 0.049432732919947465,
+      "joint_sliced_w1_minimum": 0.010021080924329472,
+      "joint_sliced_w1_maximum": 0.27204028878142084,
+      "rho_joint_vs_chi_eff_nw1": 0.9414819014651904,
+      "median_chi_eff_share_of_l1_shift": 0.7506356087870114,
+      "median_absolute_shift_pc1_alignment": 0.6192334664001414,
+      "median_pc1_variance_fraction": 0.6055161009164154,
+      "chi_p_eligible_count": 93,
+      "chi_eff_vs_chi_p": {
+        "nw1": {
+          "eligible_count": 93,
+          "positive_count": 84,
+          "zero_count": 0,
+          "negative_count": 9,
+          "median_difference": 0.0463241379942122,
+          "minimum_difference": -0.02440617271401127,
+          "maximum_difference": 0.34375524736046614
+        },
+        "nw1_geometric_width": {
+          "eligible_count": 93,
+          "positive_count": 84,
+          "zero_count": 0,
+          "negative_count": 9,
+          "median_difference": 0.04627758644709065,
+          "minimum_difference": -0.02439905601264132,
+          "maximum_difference": 0.34529808384213584
+        },
+        "nw1_larger_width": {
+          "eligible_count": 93,
+          "positive_count": 84,
+          "zero_count": 0,
+          "negative_count": 9,
+          "median_difference": 0.045702654555962896,
+          "minimum_difference": -0.02458760807044129,
+          "maximum_difference": 0.31839740087816026
+        },
+        "standardized_median_displacement": {
+          "eligible_count": 93,
+          "positive_count": 73,
+          "zero_count": 0,
+          "negative_count": 20,
+          "median_difference": 0.08585243591758013,
+          "minimum_difference": -0.10934185179062805,
+          "maximum_difference": 0.9125792896365905
+        },
+        "ks_distance": {
+          "eligible_count": 93,
+          "positive_count": 82,
+          "zero_count": 0,
+          "negative_count": 11,
+          "median_difference": 0.05618946446147127,
+          "minimum_difference": -0.03349577927359221,
+          "maximum_difference": 0.5068136247720052
+        }
+      }
+    }
+  },
+  "missing_chi_p": []
+}

@@ -1,0 +1,15 @@
+{
+  "name": "gwtc5-waveform-sensitivity-reproduction",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Pinned Node dependency for the frozen full-catalog H3 figure renderer.",
+  "engines": {
+    "node": ">=20.9.0"
+  },
+  "scripts": {
+    "figure:full-catalog-h3": "node reproducibility/full-catalog-generalization/analysis/make_full_catalog_h3_figure.js"
+  },
+  "dependencies": {
+    "sharp": "0.35.3"
+  }
+}

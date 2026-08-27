@@ -1,0 +1,19 @@
+{
+  "official_event_file_count": 104,
+  "catalog_event_count": 104,
+  "population_A_count": 87,
+  "population_B_count": 104,
+  "canonical_files_present_total": 48,
+  "population_A_files_present": 31,
+  "population_A_files_missing": 56,
+  "missing_download_bytes": 25336102984,
+  "official_records": [
+    "20348005",
+    "20348006"
+  ],
+  "source_hashes": {
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\gwtc5_h1_rerun\\GWTC5_reproducible_archive_v1_0_0\\01_public_source_preparation\\manifests\\catalog_screening_reference\\catalog_xphm_xpnr_event_ranking.csv": "7acedfbd0d2406bf6628ee39fb7fcaed4a80c940807fafd73c1eafe0671753b4",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\gwtc5_h1_rerun\\GWTC5_reproducible_archive_v1_0_0\\results\\confirmatory_final_assembly\\confirmatory_final_sample_lock.json": "2f6c3074654ecf6bf640a97e1b2b829617e5b99588786d35d5e9ff13ef702c3f",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\gwtc5_h1_rerun\\GWTC5_prospective_h3_replication\\results\\replication_final_sample_lock.json": "36b61b18da0a51b40869fa596c0ba2d9ca194c7b0aa687780da5f12b7a6ad276"
+  }
+}

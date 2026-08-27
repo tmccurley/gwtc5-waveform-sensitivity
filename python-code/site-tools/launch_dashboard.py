@@ -106,11 +106,22 @@ def main() -> None:
     shutil.copy2(dashboard_data, website_data)
     print(f"Website data refreshed: {website_data}")
 
+    full_catalog_builder = (
+        root / "python-code" / "site-tools" / "build_full_catalog_site_data.py"
+    )
+    if not full_catalog_builder.is_file():
+        raise FileNotFoundError(
+            f"Full-catalog website-data builder is missing: {full_catalog_builder}"
+        )
+    subprocess.run(
+        [sys.executable, "-B", str(full_catalog_builder)], cwd=root, check=True
+    )
+
     handler = lambda *a, **kw: NoCacheHandler(  # noqa: E731
-        *a, directory=str(website_root), **kw
+        *a, directory=str(root), **kw
     )
     server = http.server.ThreadingHTTPServer(("127.0.0.1", args.port), handler)
-    url = f"http://127.0.0.1:{args.port}/"
+    url = f"http://127.0.0.1:{args.port}/website/"
     print(f"Dashboard: {url}")
     print("Press Ctrl+C to stop.")
     if not args.no_browser:

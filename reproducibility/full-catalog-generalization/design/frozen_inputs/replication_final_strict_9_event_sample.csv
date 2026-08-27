@@ -1,0 +1,11 @@
+event,cell_id,score_stratum,snr_stratum,selection_order_within_stratum,sample_role,replaces_event,expected_filename,classification,posterior_metrics_inspected_before_lock
+GW240705_053215,high_high,high,high,3,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW240705_053215-combined_PEDataRelease.hdf5,Tier A,False
+GW241007_082943,high_low,high,low,3,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW241007_082943-combined_PEDataRelease.hdf5,Tier A,False
+GW240515_005301,high_medium,high,medium,4,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW240515_005301-combined_PEDataRelease.hdf5,Tier A,False
+GW240716_034900,low_high,low,high,6,same_cell_replacement,GW240915_105151,IGWN-GWTC5p0-29ebe06b7_25-GW240716_034900-combined_PEDataRelease.hdf5,Tier A,False
+GW240908_125134,low_low,low,low,3,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW240908_125134-combined_PEDataRelease.hdf5,Tier A,False
+GW240601_231004,low_medium,low,medium,3,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW240601_231004-combined_PEDataRelease.hdf5,Tier A,False
+GW240923_204006,medium_high,medium,high,3,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW240923_204006-combined_PEDataRelease.hdf5,Tier A,False
+GW240420_175625,medium_low,medium,low,3,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW240420_175625-combined_PEDataRelease.hdf5,Tier A,False
+GW241102_144729,medium_medium,medium,medium,4,initial_candidate,,IGWN-GWTC5p0-29ebe06b7_25-GW241102_144729-combined_PEDataRelease.hdf5,Tier A,False
+

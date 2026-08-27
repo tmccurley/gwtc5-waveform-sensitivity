@@ -1,0 +1,19 @@
+# Local staging and environments
+.staging/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Dependency installs
+node_modules/
+
+# Reproduced outputs and large public inputs
+reproduced_results/
+*.hdf5
+*.h5
+*.part
+
+# Local verification logs
+_gwtc5_verification/
+

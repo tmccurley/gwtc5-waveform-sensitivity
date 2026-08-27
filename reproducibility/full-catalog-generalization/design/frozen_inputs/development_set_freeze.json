@@ -1,0 +1,45 @@
+{
+  "freeze_date": "2026-08-01",
+  "catalog_ranking_file": "catalog_xphm_xpnr_event_ranking.csv",
+  "catalog_ranking_sha256": "7acedfbd0d2406bf6628ee39fb7fcaed4a80c940807fafd73c1eafe0671753b4",
+  "catalog_event_count": 104,
+  "development_event_count": 17,
+  "development_events": [
+    "GW240612_081540",
+    "GW240908_082628",
+    "GW241011_233834",
+    "GW241230_233618",
+    "GW250114_082203",
+    "GW240920_124024",
+    "GW241127_061008",
+    "GW241129_021832",
+    "GW240513_183302",
+    "GW240615_113620",
+    "GW241116_151753",
+    "GW240621_195059",
+    "GW241225_082815",
+    "GW241130_034908",
+    "GW240920_073424",
+    "GW240919_061559",
+    "GW241229_155844"
+  ],
+  "untouched_pool_count": 87,
+  "selection_seed": 20260801,
+  "split_noise_seed": 20260802,
+  "permutation_seed": 20260803,
+  "score_tertile_edges": [
+    0.0098177589425543,
+    0.05196806095742389,
+    0.08520156569152966,
+    0.1567394765960823
+  ],
+  "snr_tertile_edges": [
+    7.50713837150016,
+    9.58974051614599,
+    11.45463927603353,
+    31.94659961672784
+  ],
+  "primary_events_per_stratum": 2,
+  "primary_target_event_count": 18,
+  "replacement_rule": "Replace a non-Tier-A or unusable primary event with the next unused event in the same score-by-SNR stratum according to confirmatory_randomization_queue.csv. Do not choose replacements using posterior disagreement results."
+}

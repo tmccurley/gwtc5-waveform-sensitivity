@@ -1,0 +1,44 @@
+{
+  "analysis": "locked GWTC-5 full-catalog generalization",
+  "completed_utc": "2026-08-26T19:59:49.727380+00:00",
+  "population_A_tier_A_count": 78,
+  "population_B_tier_A_count": 93,
+  "constants": {
+    "n_permutations": 100000,
+    "n_bootstrap": 100000,
+    "n_splits": 100,
+    "n_matched_subsamples": 100,
+    "permutation_seed": 20260803,
+    "split_seed": 20260802,
+    "bootstrap_seed": 20260825,
+    "alpha": 0.05
+  },
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.1",
+    "scipy": "1.17.0",
+    "h5py": "3.16.0",
+    "hdf5": "2.0.0"
+  },
+  "source_hashes": {
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\results\\inventory\\full_catalog_input_inventory.csv": "875c28723462f7f5e8f706d6a1b44433e474771ea687ee01f946ef10f202f276",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\gwtc5_h1_rerun\\GWTC5_reproducible_archive_v1_0_0\\01_public_source_preparation\\manifests\\catalog_screening_reference\\catalog_xphm_xpnr_event_ranking.csv": "7acedfbd0d2406bf6628ee39fb7fcaed4a80c940807fafd73c1eafe0671753b4",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\results\\metadata_audit\\full_catalog_metadata_event_summary.csv": "9710094ba9d824cb44b5302cd9cb08ab1e0f9cc69296620cf6f2dd7781fbc849",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\results\\metadata_audit\\full_catalog_metadata_audit_manifest.json": "93ce7da6473e8373339fabaed2357d59fbcdfcf3f63b455e8020198e42b821f3",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\analysis\\frozen_metric_core.py": "f5cdd31d8d2202b45c52c9f25344572254d7693dd7ea716d8bec522c3870f73d",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\analysis\\full_catalog_generalization_analysis.py": "6ce669fdd87235c2ac9a40bb28993c45d10f409335e3ecabd5e7c853c4d6a52c"
+  },
+  "result_hashes": {
+    "full_catalog_event_endpoints.csv": "9e418fd8b90c0859cb08ce2d41843a7de9570904e985fffc427aa9b7eac3eefe",
+    "full_catalog_generalization_tests.csv": "20d1d41baa150ae1293632c728f97b0fee85bfc0bdf651d84e347ae9de6e5366",
+    "full_catalog_h3_robustness_summary.csv": "723451187d1b5f4fe1facb64c5c17425887f1d508aed0287dce79065cc4c066b",
+    "full_catalog_heterogeneity_grid.csv": "8cebeed14b5b9c9fc5307b6eccbbcd432f3589bb88eae83060e99da89d51a883",
+    "full_catalog_matched_size_replicates.csv": "a9e6b021c899a0a53f9fb9f3baac0ff04eb8a72831f323610a97c57aeafc2443",
+    "full_catalog_matched_size_summary.csv": "5cf8e583b2f85a58aaba6c9eacf5e7ae02a74650d953ff0fde99417f199c2125",
+    "full_catalog_parameter_metrics.csv": "51b67813e9f528f84f0b9728b0f66c39d0ff4f86a2ccb2b4a9b2883b658a1839",
+    "full_catalog_preflight_samples.csv": "bb211c5be32dbc4e198234ff84093460acef62eb46fae1fb75470e941431dc08",
+    "full_catalog_split_references.csv": "c2d00b831443ce054dfcb6b3f8a5d1d68af6a70995e0e904be1171c08ddf066a",
+    "full_catalog_split_replicates.csv": "dfe8c3efe51a4245cbd2b4ef23db79b6a4623bb6e4495d6174bd018c4d32e8ab"
+  }
+}

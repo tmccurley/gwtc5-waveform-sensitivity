@@ -1,0 +1,16 @@
+{
+  "purpose": "outcome-blind full-catalog matched-settings audit",
+  "created_utc": "2026-08-26T19:23:46.022354+00:00",
+  "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+  "h5py": "3.16.0",
+  "catalog_rows_in_inventory": 104,
+  "checksum_verified_events_audited": 104,
+  "strict_status_counts": {
+    "non_tier_A_metadata_difference": 11,
+    "strict_tier_A_automated": 93
+  },
+  "all_pair_outcome_usable_count": 104,
+  "posterior_values_loaded": false,
+  "posterior_metrics_calculated": false,
+  "hypothesis_tests_calculated": false
+}

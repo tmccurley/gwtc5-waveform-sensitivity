@@ -1,0 +1,8 @@
+{
+  "completed_utc": "2026-08-26T06:44:41.476053+00:00",
+  "manifest_event_count": 56,
+  "verified_event_count": 51,
+  "failure_count": 5,
+  "total_expected_bytes": 25336102984,
+  "workers": 1
+}

@@ -1,0 +1,49 @@
+{
+  "analysis": "post-lock GWTC-5 full-catalog H3 generalization",
+  "status": "final_full_catalog",
+  "completed_utc": "2026-08-26T19:25:43.902111+00:00",
+  "catalog_event_count_expected": 104,
+  "checksum_verified_event_count": 104,
+  "all_outcome_usable_event_count": 104,
+  "strict_matched_settings_event_count": 93,
+  "locked_reference_events_recomputed": 27,
+  "locked_reference_delta_signs_preserved": 27,
+  "scope": {
+    "model_families": [
+      "IMRPhenomXPHM-SpinTaylor",
+      "IMRPhenomXPNR"
+    ],
+    "configuration_tag_rule": "unique same-prefix event-specific pair (C00 or C01)",
+    "parameters": [
+      "chi_eff",
+      "luminosity_distance"
+    ],
+    "metric": "NW1 = W1 / mean(XPHM width90, XPNR width90)",
+    "posterior_rows": "all finite released rows; no random cap",
+    "tests": "post-lock descriptive/generalization only"
+  },
+  "environment": {
+    "python": "3.14.6 (tags/v3.14.6:c63aec6, Jun 10 2026, 10:26:10) [MSC v.1944 64 bit (AMD64)]",
+    "python_implementation": "CPython",
+    "platform": "Windows-11-10.0.26200-SP0",
+    "numpy": "2.5.1",
+    "scipy": "1.17.0",
+    "h5py": "3.16.0",
+    "hdf5": "2.0.0"
+  },
+  "input_hashes": {
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\results\\inventory\\full_catalog_input_inventory.csv": "875c28723462f7f5e8f706d6a1b44433e474771ea687ee01f946ef10f202f276",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\results\\inventory\\full_catalog_inventory_summary.json": "eb881552b0028cdbe7829f1bfccfd8fd33797884a04ecf2459899e991ea4de36",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\GWTC5_full_catalog_generalization\\results\\metadata_audit\\full_catalog_metadata_event_summary.csv": "9710094ba9d824cb44b5302cd9cb08ab1e0f9cc69296620cf6f2dd7781fbc849",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\gwtc5_h1_rerun\\GWTC5_reproducible_archive_v1_0_0\\reference_results\\confirmatory_analysis\\confirmatory_parameter_metrics.csv": "365a2470c97aa3a50af50917f9df0c2dfa4b05edce112d01ce0785bdfbacb4e0",
+    "C:\\Users\\tmark\\Documents\\Codex\\2026-08-15\\referenced-chatgpt-conversation-this-is-an\\work\\gwtc5_h1_rerun\\GWTC5_prospective_h3_replication\\results\\replication_analysis\\replication_parameter_metrics.csv": "ecea9e9542c43d839dbc12efc8130fbe63163c263021c40d14e59e9652d0b633"
+  },
+  "analysis_code_sha256": "6829807674aedb00ae4b142a4a3acdd4249589e3ea7067f469bf5a2349b9b4e5",
+  "result_hashes": {
+    "full_catalog_event_deltas.csv": "2a8edc63283445dba22c306bd396f970ad0efe9f52885f0f7672325f316acbd8",
+    "full_catalog_parameter_metrics.csv": "0cb57b3dda4d90b4c9b71ad0123e9cf768fc6cf1bc52cf573252118cdf194cf0",
+    "full_catalog_population_summaries.csv": "f5203c7b98809ca9bb714f0085989804d9c7d89b0cf053dd9e1db4287938bf08",
+    "full_catalog_subgroup_summaries.csv": "694fe653b39b98af52ffbb698efb72399955d3409428734cdb60cc10cdf9079e",
+    "locked_event_consistency_check.csv": "8bb6a68d611da01dc57566b178cb779e228c1cf2baf8bed3a9fb68aeb7d2b394"
+  }
+}

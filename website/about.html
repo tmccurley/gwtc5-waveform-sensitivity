@@ -3,7 +3,7 @@
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="About Thomas McCurley's GWTC-5.0 waveform-configuration sensitivity study, its methods, scope, acknowledgments, and reproducibility materials.">
+  <meta name="description" content="Methods, scope, acknowledgments, and reproducibility materials for Thomas McCurley's selected-sample and full-catalog GWTC-5.0 waveform-sensitivity study.">
   <meta name="theme-color" content="#030407">
   <title>About and methods - GWTC-5.0 waveform sensitivity</title>
   <link rel="stylesheet" href="styles.css">
@@ -16,7 +16,7 @@
     <div class="header-inner">
       <div class="eyebrow">GWTC-5.0 · research record</div>
       <h1>About the study</h1>
-      <p>Purpose, design, provenance, limitations, authorship, and materials for reproducing the waveform-configuration sensitivity analysis.</p>
+      <p>Purpose, design, provenance, limitations, authorship, and materials for reproducing the selected-sample and full-catalog waveform-configuration sensitivity analyses.</p>
       <nav class="site-nav" aria-label="Site navigation"><a href="index.html">Explore</a><a href="about.html" aria-current="page">About &amp; methods</a></nav>
     </div>
     <div class="horizon-visual" aria-hidden="true"><span class="accretion-disk"></span><span class="horizon-core"></span></div>
@@ -26,7 +26,7 @@
     <section class="about-card about-lead" aria-labelledby="purposeTitle">
       <h2 id="purposeTitle">Purpose and scope</h2>
       <p>This project examines how inferred binary-black-hole properties change when the same gravitational-wave event is analyzed with two released waveform configurations: IMRPhenomXPHM-SpinTaylor and IMRPhenomXPNR. It visualizes <strong>configuration sensitivity</strong>; it does not determine which waveform is more accurate.</p>
-      <p>The scientific question remains open. The true source parameters are unknown, posterior intervals are conditional on each released analysis configuration, and the selected events do not represent a population-prevalence estimate. Conclusions are therefore limited to the compared C00 configurations and the study samples.</p>
+      <p>The scientific question remains open. The true source parameters are unknown, and posterior intervals are conditional on each released analysis configuration. The original balanced samples do not estimate prevalence. A later post-lock extension analyzes the fixed 104-event catalog universe, with 78 strict non-development events as its primary frame. Conclusions remain limited to the compared released XPHM-SpinTaylor and XPNR configurations.</p>
     </section>
 
     <section class="about-card" aria-labelledby="designTitle">
@@ -36,7 +36,8 @@
         <dt>Confirmation</dt><dd>Eighteen events were balanced across a 3 × 3 screening-score/SNR design, with two events per cell. The event—not an individual posterior draw—is the unit of inference.</dd>
         <dt>Hypotheses</dt><dd>H1 was the sole primary hypothesis. H2 and H3 formed a Holm-adjusted secondary family; all three prespecified results are reported on the Explore page.</dd>
         <dt>Replication</dt><dd>Nine previously unprocessed reserve events, one per design cell, tested one prospectively locked H3 hypothesis after selection was frozen.</dd>
-        <dt>Numerical audit</dt><dd>The confirmatory run records metric definitions, input SHA-256 hashes, fixed seeds, sample audits, and 100,000-permutation settings in a machine-readable manifest.</dd>
+        <dt>Generalization</dt><dd>The post-lock extension fixes all 104 catalog pairs, excludes 17 development events from its primary frame, and applies an outcome-blind matched-settings audit. Seventy-eight events form the primary G1, G2, and G3 population; 93 pass the strict audit, and all 104 remain outcome-usable for a descriptive H3 census.</dd>
+        <dt>Numerical audit</dt><dd>The confirmatory and generalization runs record metric definitions, input hashes, fixed seeds, sample audits, permutation settings, software versions, and result hashes in machine-readable manifests.</dd>
       </dl>
       <p class="meta">Exploratory mechanism analyses and post-confirmatory robustness checks are labeled separately from the prespecified tests throughout the visualization.</p>
     </section>
@@ -56,9 +57,9 @@
 
     <section class="about-card contact-card" aria-labelledby="materialsTitle">
       <h2 id="materialsTitle">Research materials and contact</h2>
-      <p>The frozen protocol and confirmatory artifacts are available alongside the complete verified code and figure archive. Questions, corrections, and constructive feedback are welcome at <a href="mailto:tcmc921@gmail.com">tcmc921@gmail.com</a>.</p>
-      <div class="resource-row"><a href="../Confirmatory_protocol.md">Frozen protocol</a><a href="../results/confirmatory_analysis/confirmatory_analysis_manifest.json">Analysis manifest</a><a href="../results/confirmatory_analysis/confirmatory_hypothesis_results.csv">Hypothesis results</a><a href="../downloads/GWTC5_all_figures_and_code_only.zip">Figures &amp; code archive</a></div>
-      <p class="meta">Confirmatory analysis snapshot: 2 August 2026. Website revision: 20 August 2026.</p>
+      <p>The frozen confirmation, replication, and full-catalog materials are retained with their original statistical roles. The full-catalog capsule includes code, protocols, acquisition records, official input checksums, result tables, figures, tests, requirements, exact commands, and a SHA-256 output manifest. Official HDF5 releases are referenced rather than copied; the repository-level acquisition helper can fetch and verify all 104 files from an empty directory. Questions, corrections, and constructive feedback are welcome at <a href="mailto:tcmc921@gmail.com">tcmc921@gmail.com</a>.</p>
+      <div class="resource-row"><a href="../Confirmatory_protocol.md">Confirmatory protocol</a><a href="../results/confirmatory_analysis/confirmatory_analysis_manifest.json">Confirmatory manifest</a><a href="../reproducibility/README.md">Reproducibility map</a><a href="../reproducibility/download_full_catalog.py">Catalog downloader</a><a href="../reproducibility/full-catalog-generalization/REPRODUCTION_COMMANDS.md">Reproduction commands</a><a href="../reproducibility/full-catalog-generalization/results/FULL_CATALOG_GENERALIZATION_FINAL_SUMMARY.md">Final full-catalog summary</a><a href="../reproducibility/full-catalog-generalization/FINAL_OUTPUT_SHA256SUMS.txt">Output checksums</a><a href="../downloads/GWTC5_all_figures_and_code_only.zip">Complete archive</a><a href="../downloads/GWTC5_all_figures_and_code_only.zip.sha256">Archive checksum</a></div>
+      <p class="meta">Confirmatory analysis snapshot: 2 August 2026. Full-catalog analysis completed: 26 August 2026. Website revision: 27 August 2026.</p>
     </section>
   </main>
 </body>

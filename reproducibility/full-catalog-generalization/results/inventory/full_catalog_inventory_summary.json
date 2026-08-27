@@ -1,0 +1,34 @@
+{
+  "created_utc": "2026-08-26T19:18:58.433323+00:00",
+  "catalog_event_count": 104,
+  "input_directories": [
+    "C:\\Users\\tmark\\Downloads"
+  ],
+  "md5_calculated": true,
+  "status_counts": {
+    "verified": 104
+  },
+  "role_counts": {
+    "previously_unselected": 60,
+    "confirmatory_strict": 18,
+    "prospective_replication_strict": 9,
+    "development_diagnostic": 12,
+    "development_pilot": 5
+  },
+  "full_catalog_score_tertile_boundaries": [
+    0.05352936947731568,
+    0.0943797255125899
+  ],
+  "full_catalog_snr_tertile_boundaries": [
+    9.715003911027749,
+    12.091171436508233
+  ],
+  "complete_and_verified": true,
+  "source_hashes": {
+    "ranking_sha256": "7acedfbd0d2406bf6628ee39fb7fcaed4a80c940807fafd73c1eafe0671753b4",
+    "development_freeze_sha256": "189cd2edb1321a6559ac072190fad0bb1fbd531583aaad84f7368e41a3d8e307",
+    "confirmatory_sample_sha256": "fa4c99676f770d640db9a3230d23ed92ac8a567cd610809383162191fb3554e6",
+    "replication_sample_sha256": "43ac14c622f98e7b54b2f11cc7ba22dc19249c932167f8c7d22ff5be24462278",
+    "official_md5_manifest_sha256": "6f619d6ccf7cbd886fb3f32d9408ef597e646a8a2580f31ca9942bcd887166c4"
+  }
+}
