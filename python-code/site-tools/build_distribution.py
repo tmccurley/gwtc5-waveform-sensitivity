@@ -19,6 +19,7 @@ INCLUDED_DIRECTORIES = (
     "waveform-comparison",
 )
 INCLUDED_FILES = (
+    ".gitattributes",
     ".gitignore",
     ".nojekyll",
     "index.html",
