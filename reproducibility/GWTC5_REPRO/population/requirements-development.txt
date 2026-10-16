@@ -1,0 +1,6 @@
+# Synthetic/reference environment tested on CPython 3.14.6, Windows x64.
+# This is not the official-release environment or a production inference lock.
+numpy==2.5.1
+scipy==1.17.0
+astropy==8.0.1
+h5py==3.16.0

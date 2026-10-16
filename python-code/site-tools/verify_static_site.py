@@ -16,6 +16,7 @@ HTML_FILES = (
     "about.html",
     "website/index.html",
     "website/about.html",
+    "website/materials.html",
 )
 
 
@@ -174,7 +175,7 @@ def main() -> None:
             print(f"- {failure}")
         raise SystemExit(1)
     print("Static website verification: PASS")
-    print("HTML pages: 4 | confirmatory rows: 90 | primary: 78 | strict: 93 | census: 104")
+    print("HTML pages: 5 | confirmatory rows: 90 | primary: 78 | strict: 93 | census: 104")
 
 
 if __name__ == "__main__":

@@ -89,3 +89,7 @@ This creates `downloads/GWTC5_all_figures_and_code_only.zip`, writes a SHA-256 m
 Publish from the repository branch root. The root redirect opens `website/`, and `.nojekyll` prevents GitHub Pages from treating research paths beginning with underscores as Jekyll internals.
 
 For study context, authorship, acknowledgments, and contact information, see the website [About page](website/about.html).
+
+## Supplied reproduction update
+
+The complete supplied `GWTC5_REPRO.zip` is available in [`downloads/`](downloads/GWTC5_REPRO.zip), with its SHA-256 checksum. Its extracted, manifest-verified contents are preserved in [`reproducibility/GWTC5_REPRO/`](reproducibility/GWTC5_REPRO/README.md). This adds joint-distribution and reduced population code, retained figure generators, and the final figure collection. Browse all supplied files and figures on the website [Code & figures page](website/materials.html). This code-and-figure package does not supply new numerical tables or population caches; existing frozen results retain their original scope.

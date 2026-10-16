@@ -1,0 +1,13 @@
+[project]
+name = "gwtc5-waveform-sensitivity"
+version = "1.0.0"
+description = "Reproducible analysis archive for GWTC-5 waveform-model sensitivity"
+requires-python = ">=3.13,<3.14"
+dependencies = ["h5py==3.15.1","matplotlib==3.10.8","numpy==2.3.5","pandas==2.2.3","scipy==1.17.0"]
+
+[project.optional-dependencies]
+test = ["pytest==9.0.2"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "-ra"

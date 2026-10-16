@@ -32,3 +32,7 @@ python -B analysis\verify_full_catalog_outputs.py
 ```
 
 Figure generation has a separate pinned Pillow requirement. The Node renderer uses the `sharp` version declared in the repository root [`package.json`](../package.json).
+
+## Supplied GWTC5_REPRO collection
+
+[`GWTC5_REPRO/README.md`](GWTC5_REPRO/README.md) describes the supplied code-and-figure collection, including joint-distribution and reduced population analyses. All payload files were verified against its `MANIFEST.csv`. Paths and scientific contents remain as supplied. This is separate from the frozen full-catalog capsule and does not replace its results or checksums.

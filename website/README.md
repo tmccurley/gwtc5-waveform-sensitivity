@@ -23,3 +23,7 @@ python -B python-code/site-tools/launch_dashboard.py
 The local server must use the repository root, not this directory alone, because the research-material links intentionally point to protocols and checksums outside `website/`. The root GitHub Pages entry point follows the same path layout.
 
 Before publishing, run `python -B python-code/site-tools/verify_static_site.py` from the repository root. It checks local links, duplicate identifiers, generated asset formats, authenticated full-catalog sources, and the finalized row counts.
+
+## Code and final figures
+
+`materials.html` links every file in the supplied reproduction package and previews all available final PNG figures. The unchanged ZIP and its checksum are under `downloads/`; extracted source files retain their supplied paths under `reproducibility/GWTC5_REPRO/`.

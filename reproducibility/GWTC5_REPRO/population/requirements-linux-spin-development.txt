@@ -1,0 +1,27 @@
+# Observed Linux CPython 3.12.3 development environment, not a production lock.
+# Source: results/preflight/linux_spin_runtime_20260913T000623507195Z.json
+# LALSuite 7.26.15 imports LAL 7.7.1 and LALSimulation 6.2.1 in this report.
+# Exact package versions are recorded; this is not a wheel-hash lockfile.
+# Do not install this snapshot into the existing Windows environment.
+astropy==8.0.1
+astropy-iers-data==0.2026.9.7.0.56.14
+contourpy==1.4.0
+cycler==0.12.1
+fonttools==4.65.0
+igwn-ligolw==2.1.1
+igwn-segments==2.1.1
+kiwisolver==1.5.1
+lalsuite==7.26.15
+lscsoft-glue==4.1.1
+matplotlib==3.11.2
+numpy==2.5.3
+packaging==26.3
+pillow==12.3.0
+pip==24.0
+pyerfa==2.0.1.5
+pyparsing==3.3.2
+python-dateutil==2.9.0.post0
+PyYAML==6.0.3
+scipy==1.18.1
+six==1.17.0
+tqdm==4.70.1
